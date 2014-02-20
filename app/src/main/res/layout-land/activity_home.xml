@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    tools:ignore="MergeRootFrame">
+
+
+    <Button
+        android:id="@+id/profileButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/profile_button_string"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp" />
+
+    <Button
+        android:id="@+id/wiedergabeButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/wiedergabe_button_string"
+        android:layout_toRightOf="@+id/profileButton"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp" />
+
+    <Button
+        android:id="@+id/einstellungenButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/einstellungen_button_string"
+        android:layout_toRightOf="@+id/wiedergabeButton"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp" />
+
+    <Button
+        android:id="@+id/soundButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/sound_button_string"
+        android:layout_toRightOf="@+id/einstellungenButton"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp" />
+
+    <Button
+        android:id="@+id/freundeButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/freunde_button_string"
+        android:layout_below="@+id/profileButton"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="200dp" />
+
+    <Button
+        android:id="@+id/geraeteButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/geraete_button_string"
+        android:layout_toRightOf="@+id/freundeButton"
+        android:layout_below="@+id/wiedergabeButton"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp" />
+
+    <Button
+        android:id="@+id/shazamButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/shazam_button_string"
+        android:layout_toRightOf="@+id/geraeteButton"
+        android:layout_below="@+id/wiedergabeButton"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp" />
+
+
+</RelativeLayout>

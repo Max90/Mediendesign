@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="ComAndroidSupportAppcompatV71800.aar" >
+        <source path="D:\Uni\Mediengestaltung\App\Mediendesign\app\build\exploded-bundles\ComAndroidSupportAppcompatV71800.aar\assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="D:\Uni\Mediengestaltung\App\Mediendesign\app\src\main\assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="D:\Uni\Mediengestaltung\App\Mediendesign\app\src\debug\assets" />
+    </dataSet>
+
+</merger>
